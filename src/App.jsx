@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import axios from "axios";
 import { youtube_parser } from "./utils";
+import axios, { Axios } from "axios";
 function App() {
   const inputURLRef = useRef();
   const [urlResult, setUrlResult] = useState(null);
